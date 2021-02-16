@@ -7,10 +7,7 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class=" {{ Request::is('/') ? 'active' : '' }}"><a href="{{route('home')}}">Home</a></li>
-              <li class=""><a href="#about">About</a></li>
               <li class=""><a href="#services">Services</a></li>
-              <li class=""><a href="#portfolio">Portfolio</a></li>
-              <li class="{{ Request::is('team') ? 'active' : '' }}"><a href="{{route('team')}}">Team</a></li>
               <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="{{route('contact')}}">Contact</a></li>
               <li class="drop-down"><a href="">Drop Down</a>
                 <ul>
